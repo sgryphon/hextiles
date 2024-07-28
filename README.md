@@ -52,7 +52,9 @@ TODO: Naming conventions for room sections (i.e. not a corridor connection).
 
 ### Combining base tiles
 
-To combine base tiles into a tile group that fits on an A4 page, create a new document in Inkscape, import the needed tiles, rotate if needed, and place at the following locations:
+To combine base tiles into a tile group that fits on an A4 page, create a new document in Inkscape, import the needed tiles, rotate if needed, and place at the following locations.
+
+Note that these use geometric bounding boxes, excluding border width (the Inkscape default is usually visual bounding boxes). To change this in Inkscape use Edit > Preferences, and then change under Tools > Bounding box to use.
 
 * Tile 0101: x=5, y=5
 * Tile 0102: x=5, y=105 
@@ -65,6 +67,12 @@ To combine base tiles into a tile group that fits on an A4 page, create a new do
 This gives a 5mm margin around the tile group.
 
 To create a PDF you can use Print to PDF (on Windows), or you can export the Page.
+
+## Folders
+
+* master : Master Inkscape for for creating base tiles (and half-tiles), with layers and groups for different wall segments.
+* base-tiles : Exported base tiles in various configurations. Tiles may be rotated as needed, or reversed (if printing on paper you need to print the reversed tiles as well)
+* tile-groups : Larger groups of tiles, up to A4 in size. Combine this with individual base tiles as needed.
 
 ## 15mm hex grid
 
@@ -79,12 +87,6 @@ e.g. If hexes are 5 feet each, then a base tiles are 20 feet (from centre to cen
 There is a sample map in `15mm\sample` that uses 80 feet hexes (i.e. 4x base tile) and 320 feet larger groupings.
 
 This map is around 1,000 x 1,500 feet, suitable for a town or village and surrounds.
-
-## Folders
-
-* master : Master Inkscape for for creating base tiles (and half-tiles), with layers and groups for different wall segments.
-* base-tiles : Exported base tiles in various configurations. Tiles may be rotated as needed, or reversed (if printing on paper you need to print the reversed tiles as well)
-* tile-groups : Larger groups of tiles, up to A4 in size. Combine this with individual base tiles as needed.
 
 ## Copyright
 
