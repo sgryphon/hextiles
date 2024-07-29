@@ -43,12 +43,40 @@ Corridor connections between base tiles use the centre hex of each face, for con
 
 #### Naming conventions
 
-* Name the tile with the flat edges on the top and bottom.
-* Corridor connections are labelled A-F, starting from the top going clockwise.
-* Tiles can be rotated, so orient them so the first opening is the earliest letter, e.g. `room-1-exit-a` instead of `room-1-exit-d` (rotated 180 degrees)
-* There is no need to name the primary exits separate from the primary feature, e.g. `vertical-1-door-b` has a door exit in the top right face but doesn't bother to name the A and D ends of the corridor.  
+Names are suffixed with the available connection types for each edge of the tile.
 
-TODO: Naming conventions for room sections (i.e. not a corridor connection).
+Each edge of the tile consists of the sides of two corner hexes, plus a half-hex in the middle. There are 3 connection points:
+
+* A: The vertex between the corner hexes and the half-hex. This is the connection point for single width corridors (AA), and also for the left (A) and right (AR) sides of a multi-tile open area. A horizonal single width corridor fits in a half-tile.
+* B: The half way point of the corner hexes, used for double-width corridors, either vertical or horizonal (fitting in a half-tile).
+* C: The middle of the edge, alternative used for a double-width horizontal coridor across two edges: the left side (C) on one and the next edge as the right side (CR). Alternating half-tiles for double-width horizontal corridors use two tiles each with a single wall using the C/CR points.
+
+Each edge either has two connection points for a corridor, e.g. AA or BB, or has connection points on separate edges for an open area or the alternate horizonal corridor, e.g. A+AR, C+CR.
+
+Tiles have a suffix indicating the connection types, along with O for open edges and X for closed (non-connecting) edges, with a number to indicate if there are multiple edges of the same type in a row.
+
+Naming rules:
+* Describe the relevant features.
+* Unspecified edges are not connected, so when naming drop the largest X group and start with the edge after it.
+* If there are two X groups with the same size, use the start that is lowest alphabetically.
+* Additional features of the connections can be listed after the connections, indexed by numerical order (if all other conditions are equal, use the lowest numbers).
+
+For half-tiles:
+* Half-tiles start with the prefix 'half-'
+* Specific the three hex edges clockwise, ignoring the normal rules. 
+
+Examples:
+* 'vertical-AA-X2-AA' has an AA connection, two unconnected edges, then another AA connection on the opposite side; the last two sides are closed, i.e. a straight corridor.
+* 'area-A-O-AR-X-AA' has a left side wall on the first face, and open side, a right side wall, and then a single width corridor opposite. There are two closed sides, but drop the one before the open area because 'A' comes before 'AA'.
+* 'vertical-AA-X2-AA-door-1' is the straight corridor with two AA connections, with the first of them having a door.
+* 'area-A-O-AR-X-AA-door-5' would indicate a door on the single width exit (edge number 5).
+* 'half-X-AA2' indicates an L-shaped half-tile with two single width exits at the top and right sides, and nothing on the left.
+
+When combining tiles the connections should match, i.e. AA matches to AA, and BB matches to BB; for the single wall the opposite sides need to match, i.e. A matches to AR, and C matches to CR.
+
+This at a glance allows you to see which tiles can potentially match with others.
+
+In addition some smaller connections will block the rest of the edge, allowing them to be joined to larger connections if needed.
 
 ### Combining base tiles
 
