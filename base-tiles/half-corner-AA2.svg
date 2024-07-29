@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="hex-master-1.svg"
+   sodipodi:docname="half-corner-X-AA2.svg"
    inkscape:export-filename="..\base-tiles\half-corner-ab.svg"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
@@ -28,7 +28,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="2.0586052"
-     inkscape:cx="79.665591"
+     inkscape:cx="86.952078"
      inkscape:cy="201.10704"
      inkscape:window-width="2677"
      inkscape:window-height="1443"
@@ -74,7 +74,7 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 126.95517,537.47971 -62.51864,0 -31.259318,-54.14274 31.259324,-54.14273 62.518644,0 31.25932,54.14274 z"
-       transform="matrix(0.87257041,0,0,0.87258402,153.62241,-308.36629)"
+       transform="matrix(-0.87257041,0,0,0.87258402,320.59595,-308.36629)"
        inkscape:label="hex0302" />
     <path
        sodipodi:type="star"
@@ -91,7 +91,7 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 126.95517,537.47971 -62.51864,0 -31.259318,-54.14274 31.259324,-54.14273 62.518644,0 31.25932,54.14274 z"
-       transform="matrix(0.87257031,0,0,0.872584,71.757842,-355.61037)"
+       transform="matrix(-0.87257031,0,0,0.872584,402.46052,-355.61037)"
        inkscape:label="hex0201"
        inkscape:tile-cx="155.25921"
        inkscape:tile-cy="66.141743"
@@ -101,7 +101,7 @@
        inkscape:tile-y0="18.897658" />
     <path
        style="display:inline;fill:none;stroke:#cccccc;stroke-width:0.755932"
-       d="M 100.73197,160.62992 H 46.178269"
+       d="m 373.48639,160.62992 h 54.5537"
        id="path6-5-2-6-8-3-6"
        inkscape:label="lineb0103"
        inkscape:tile-cx="73.455121"
@@ -130,7 +130,7 @@
        y="0"
        inkscape:tiled-clone-of="#path6"
        xlink:href="#path6"
-       transform="translate(163.65574)"
+       transform="translate(-163.65574)"
        id="use3"
        style="display:inline" />
     <use
@@ -138,7 +138,7 @@
        y="0"
        inkscape:tiled-clone-of="#path6"
        xlink:href="#path6"
-       transform="translate(163.65574,94.488169)"
+       transform="translate(-163.65574,94.488169)"
        id="use4"
        style="display:inline" />
     <use
@@ -153,7 +153,7 @@
        y="0"
        inkscape:tiled-clone-of="#path6-5-2-6-8-3-6"
        xlink:href="#path6-5-2-6-8-3-6"
-       transform="translate(327.32221)"
+       transform="translate(-327.32221)"
        id="use12"
        style="display:inline" />
   </g>
@@ -166,7 +166,8 @@
     <g
        id="g7"
        inkscape:label="vert right B"
-       style="display:inline">
+       style="display:inline"
+       transform="matrix(-1,0,0,1,474.21836,0)">
       <rect
          style="display:none;fill:#000000;stroke:none;stroke-width:0.668131"
          id="rect140-6-32-64-2"
@@ -216,7 +217,8 @@
     <g
        id="g6"
        inkscape:label="vert left B"
-       style="display:inline">
+       style="display:inline"
+       transform="matrix(-1,0,0,1,474.21836,0)">
       <rect
          style="display:none;fill:#000000;stroke:none;stroke-width:0.668131"
          id="rect140-6-32-64"
@@ -273,7 +275,8 @@
     <g
        id="g2"
        inkscape:label="hor 2"
-       style="display:inline">
+       style="display:inline"
+       transform="matrix(-1,0,0,1,474.21836,0)">
       <path
          id="rect140-6-32-4-4-4"
          style="display:inline;stroke-width:0.927549"
@@ -323,7 +326,7 @@
        id="g1"
        inkscape:label="hor 1"
        style="display:inline"
-       transform="translate(0.66141439)">
+       transform="matrix(-1,0,0,1,473.55694,0)">
       <path
          id="rect140-6-32-4-2"
          style="display:inline;stroke-width:0.8359"
@@ -357,7 +360,7 @@
        id="path1-1-5"
        style="display:inline;fill:none;stroke:#e6e6e6;stroke-width:3.02382"
        inkscape:label="geo2h"
-       d="M 346.21494,18.897638 455.32072,207.87393 H 18.897638 L 128.00341,18.897638 Z"
+       d="M 128.00342,18.897638 18.897638,207.87393 H 455.32072 L 346.21495,18.897638 Z"
        sodipodi:nodetypes="ccccc" />
   </g>
 </svg>
