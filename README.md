@@ -50,6 +50,9 @@ Each edge of the tile consists of the sides of two corner hexes, plus a half-hex
 * A: The vertex between the corner hexes and the half-hex. This is the connection point for single width corridors (AA), and also for the left (A) and right (AR) sides of a multi-tile open area. A horizonal single width corridor fits in a half-tile.
 * B: The half way point of the corner hexes, used for double-width corridors, either vertical or horizonal (fitting in a half-tile).
 * C: The middle of the edge, alternative used for a double-width horizontal coridor across two edges: the left side (C) on one and the next edge as the right side (CR). Alternating half-tiles for double-width horizontal corridors use two tiles each with a single wall using the C/CR points.
+* D: Quarter point of the middle edge, the middle between A & C; not currently used.
+
+![alt text](connection-points.png)
 
 Each edge either has two connection points for a corridor, e.g. AA or BB, or has connection points on separate edges for an open area or the alternate horizonal corridor, e.g. A+AR, C+CR.
 
@@ -67,10 +70,16 @@ For half-tiles:
 
 Examples:
 * 'vertical-AA-X2-AA' has an AA connection, two unconnected edges, then another AA connection on the opposite side; the last two sides are closed, i.e. a straight corridor.
+* 'corner-left-AA-X-AA' is an L-shaped corner (use 'angle' to indicate other angles), so one of the corridors is horizontal (i.e. could fit in a half-tile). As the connections are separated by one edge this is the second horizontal (approaching along the vertical), and there are left and right versions.
+  * NOT 'corner-left-AA-X3-AA', as we drop the largest X group. This means the first AA is actually the horizontal, even though we describe left/right from the point of view of the vertical corridor.
+* 'half-corner-left-AA2' is a similar corner, but at the first (adjacent) horizontal, so only needs a half-tile.
 * 'area-A-O-AR-X-AA' has a left side wall on the first face, and open side, a right side wall, and then a single width corridor opposite. There are two closed sides, but drop the one before the open area because 'A' comes before 'AA'.
+  * NOT 'area-AA-X-A-O-AR', as we start after the (same size) X that is first alphabetically ('A-' is before 'AA').
 * 'vertical-AA-X2-AA-door-1' is the straight corridor with two AA connections, with the first of them having a door.
+  * NOT 'vertical-AA-X2-AA-door-4', as we use the lowest number
 * 'area-A-O-AR-X-AA-door-5' would indicate a door on the single width exit (edge number 5).
-* 'half-X-AA2' indicates an L-shaped half-tile with two single width exits at the top and right sides, and nothing on the left.
+* 'half-corner-right-X-AA2' indicates an L-shaped half-tile with two single width exits at the top and right sides, and nothing on the left.
+  * NOT 'half-corner-right-AA2', as we start half-tiles from the first clockwise edge.
 
 When combining tiles the connections should match, i.e. AA matches to AA, and BB matches to BB; for the single wall the opposite sides need to match, i.e. A matches to AR, and C matches to CR.
 
