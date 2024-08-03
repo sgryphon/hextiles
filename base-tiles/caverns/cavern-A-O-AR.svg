@@ -8,8 +8,8 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="hex-master-caverns.svg"
-   inkscape:export-filename="..\base-tiles\caverns\cavern-A-O-AR.svg"
+   sodipodi:docname="hex-master-2.svg"
+   inkscape:export-filename="..\base-tiles\caverns-exit-A-O-AR-BB.svg"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,16 +27,16 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0293026"
-     inkscape:cx="-291.94524"
-     inkscape:cy="-54.405769"
+     inkscape:zoom="1.4556537"
+     inkscape:cx="320.13109"
+     inkscape:cy="270.66877"
      inkscape:window-width="2677"
      inkscape:window-height="1443"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      showguides="true"
-     inkscape:current-layer="layer7">
+     inkscape:current-layer="layer14">
     <sodipodi:guide
        position="-17.151834,792.18899"
        orientation="0,1"
@@ -162,6 +162,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Hexes-Top"
+     style="display:inline"
      transform="translate(-17.151834,-17.385827)">
     <path
        sodipodi:type="star"
@@ -508,13 +509,13 @@
      inkscape:groupmode="layer"
      id="layer14"
      inkscape:label="Caverns"
+     style="display:inline"
      transform="translate(-17.151834,-17.385827)">
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:7.55906;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none"
-       d="m 169.68322,30.226971 c 0,0 -3.70929,11.754807 3.75704,18.518377 16.18201,14.65889 49.29991,31.907057 35.82817,38.716189 -16.59125,8.385851 -32.6047,-14.210624 -59.46537,3.312775 -40.67832,26.537778 -52.868376,56.691808 -50.191454,70.665188 4.978964,25.98991 31.973124,41.83061 30.226964,65.94975 -1.33925,18.49854 -37.212887,29.53342 -30.226964,46.71441 12.031224,29.58927 65.850424,5.18084 93.428814,21.29628 23.2342,13.57691 27.45722,57.49235 54.27115,59.76696 30.71869,2.60584 42.37375,-61.86499 72.81953,-57.01905 10.78529,1.71665 7.094,20.98969 13.70474,34.18019 7.07558,14.11797 24.07897,22.15189 24.07897,22.15189"
-       id="path13"
-       sodipodi:nodetypes="cssssssssssc"
-       inkscape:label="open corner 2" />
+       style="fill:none;stroke:#000000;stroke-width:7.55906;stroke-linecap:square;stroke-linejoin:round"
+       d="m 167.2788,29.711738 c 0,0 3.11689,8.972324 1.03046,26.620342 -3.21287,27.176022 -30.69161,9.446173 -41.21859,65.26277 -6.30125,33.41074 7.72979,71.93582 40.53161,90.68091 21.79119,12.45291 28.56707,27.63434 33.66186,52.21022 5.65969,27.30083 1.03747,63.22668 30.91395,74.88046 32.93482,12.84674 64.92407,9.66719 99.61161,8.24372 13.26643,-0.54442 27.47906,8.9307 27.47906,8.9307"
+       id="path21"
+       sodipodi:nodetypes="cssssssc" />
   </g>
   <g
      inkscape:label="Geomorph-Full"
