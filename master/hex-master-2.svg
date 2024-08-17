@@ -28,7 +28,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.4142136"
-     inkscape:cx="42.77996"
+     inkscape:cx="689.78265"
      inkscape:cy="112.07642"
      inkscape:window-width="2880"
      inkscape:window-height="1586"
@@ -98,7 +98,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Hexes-Bottom"
-     style="display:none">
+     style="display:inline">
     <path
        sodipodi:type="star"
        style="display:inline;fill:none;stroke:#999999;stroke-width:0.866308;stroke-dasharray:none"
@@ -116,7 +116,7 @@
        d="m 126.95517,537.47971 -62.51864,0 -31.259318,-54.14274 31.259324,-54.14273 62.518644,0 31.25932,54.14274 z"
        transform="matrix(0.87257033,0,0,0.87258402,153.62241,-119.38993)"
        inkscape:label="hex0304"
-       inkscape:export-filename="..\base-tiles\walls\horizontal-double-C-CR-X-C-CR.svg"
+       inkscape:export-filename="..\base-tiles\caverns\cavern-pool-A-AR.svg"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -544,7 +544,7 @@
        transform="rotate(90)"
        inkscape:label="wall ver A-iv part3-5" />
     <rect
-       style="display:inline;fill:#000000;stroke:none;stroke-width:1.09914"
+       style="display:none;fill:#000000;stroke:none;stroke-width:1.09914"
        id="rect2325"
        width="141.73228"
        height="27.276852"
@@ -607,7 +607,7 @@
        transform="rotate(90)"
        inkscape:label="wall ver A-iii part1-3" />
     <rect
-       style="display:inline;fill:#000000;stroke:none;stroke-width:0.634592"
+       style="display:none;fill:#000000;stroke:none;stroke-width:0.634592"
        id="rect246"
        width="47.244095"
        height="27.276852"
@@ -775,7 +775,7 @@
        transform="rotate(90)"
        inkscape:label="wall hor A-ii part4-5" />
     <rect
-       style="display:inline;fill:#000000;stroke:none;stroke-width:1.41896"
+       style="display:none;fill:#000000;stroke:none;stroke-width:1.41896"
        id="rect2324"
        width="23.622047"
        height="272.76474"
@@ -784,7 +784,7 @@
        transform="rotate(90)"
        inkscape:label="wall hor A-ii part1-3" />
     <rect
-       style="display:inline;fill:#000000;stroke:none;stroke-width:1.00335"
+       style="display:none;fill:#000000;stroke:none;stroke-width:1.00335"
        id="rect251"
        width="23.622047"
        height="136.38048"
@@ -820,7 +820,7 @@
        transform="rotate(90)"
        inkscape:label="wall hor A-i part4" />
     <rect
-       style="display:inline;fill:#000000;stroke:none;stroke-width:0.709479"
+       style="display:none;fill:#000000;stroke:none;stroke-width:0.709479"
        id="rect26"
        width="23.622047"
        height="68.190239"
@@ -1146,7 +1146,7 @@
        inkscape:tile-w="218.20728"
        inkscape:tile-h="23.622064">
       <rect
-         style="display:inline;fill:#000000;stroke:none;stroke-width:0.448719"
+         style="display:none;fill:#000000;stroke:none;stroke-width:0.448719"
          id="rect81-6-5"
          width="23.621735"
          height="27.276731"
@@ -1164,7 +1164,7 @@
          transform="rotate(30)"
          inkscape:label="ext 2 AR half" />
       <rect
-         style="display:inline;fill:#000000;stroke:none;stroke-width:0.549558"
+         style="display:none;fill:#000000;stroke:none;stroke-width:0.549558"
          id="rect73"
          width="23.622047"
          height="40.913387"
@@ -1254,16 +1254,17 @@
          transform="rotate(30,338.51486,506.44438)"
          inkscape:label="ext 2 A" />
       <rect
-         style="display:inline;fill:#000000;stroke:none;stroke-width:0.549558"
+         style="display:none;fill:#000000;stroke:none;stroke-width:0.549558"
          id="rect83"
          width="23.622047"
          height="40.913387"
          x="-87.569695"
          y="189.47095"
          transform="rotate(-30,-2.6988379e-6,2.641766e-5)"
-         inkscape:label="ext 1 AR" />
+         inkscape:label="ext 1 AR"
+         sodipodi:insensitive="true" />
       <rect
-         style="display:inline;fill:#000000;stroke:none;stroke-width:0.549558"
+         style="display:none;fill:#000000;stroke:none;stroke-width:0.549558"
          id="rect84"
          width="23.622047"
          height="40.913387"
@@ -1756,7 +1757,7 @@
        inkscape:label="cx A">
       <path
          sodipodi:type="star"
-         style="display:inline;fill:#000000;stroke-width:30.2362;stroke-linecap:square;stroke-linejoin:round"
+         style="display:none;fill:#000000;stroke-width:30.2362;stroke-linecap:square;stroke-linejoin:round"
          id="path26"
          inkscape:flatsided="true"
          sodipodi:sides="3"
@@ -1775,7 +1776,7 @@
          inkscape:label="cx 6 AR" />
       <path
          sodipodi:type="star"
-         style="display:inline;fill:#000000;stroke-width:30.2362;stroke-linecap:square;stroke-linejoin:round"
+         style="display:none;fill:#000000;stroke-width:30.2362;stroke-linecap:square;stroke-linejoin:round"
          id="path74"
          inkscape:flatsided="true"
          sodipodi:sides="3"
@@ -1908,7 +1909,7 @@
          inkscape:label="cx 3 A" />
       <path
          sodipodi:type="star"
-         style="display:none;fill:#000000;stroke-width:30.2362;stroke-linecap:square;stroke-linejoin:round"
+         style="display:inline;fill:#000000;stroke-width:30.2362;stroke-linecap:square;stroke-linejoin:round"
          id="path58"
          inkscape:flatsided="true"
          sodipodi:sides="3"
@@ -1946,7 +1947,7 @@
          inkscape:label="cx 2 A" />
       <path
          sodipodi:type="star"
-         style="display:inline;fill:#000000;stroke-width:30.2362;stroke-linecap:square;stroke-linejoin:round"
+         style="display:none;fill:#000000;stroke-width:30.2362;stroke-linecap:square;stroke-linejoin:round"
          id="path64"
          inkscape:flatsided="true"
          sodipodi:sides="3"
@@ -12143,7 +12144,7 @@
     <g
        id="g8"
        inkscape:label="open A-AR lake"
-       style="display:none">
+       style="display:inline">
       <g
          id="g15"
          inkscape:label="corner lake">
@@ -16221,7 +16222,7 @@
       <g
          id="g2218"
          inkscape:label="hatching L"
-         style="display:inline"
+         style="display:none"
          transform="matrix(1,0,0,0.91729684,-70.003573,-156.00086)">
         <g
            id="g2160"
@@ -17477,7 +17478,7 @@
          id="g2334"
          inkscape:label="bricks L"
          transform="translate(-773.53564,-184.45322)"
-         style="display:inline">
+         style="display:none">
         <path
            id="path2325"
            style="display:inline;fill:#a09b8b;stroke:#000000;stroke-width:0.674756;stroke-linecap:round;stroke-linejoin:round"
@@ -17572,7 +17573,7 @@
       </g>
       <g
          id="g2323"
-         style="display:inline"
+         style="display:none"
          inkscape:label="bricks 3"
          transform="translate(-58.049521,0.68697658)">
         <path
@@ -21606,7 +21607,7 @@
     <g
        id="g1020"
        inkscape:label="spare"
-       style="display:inline">
+       style="display:none">
       <path
          id="rect65"
          style="stroke:#000000;stroke-width:0.674916;stroke-linecap:round;stroke-linejoin:round"
@@ -22581,7 +22582,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Geomorph-Top"
-     style="display:inline">
+     style="display:none">
     <path
        id="path1-1-5"
        style="display:inline;fill:none;stroke:#e6e6e6;stroke-width:3.02382"
@@ -22593,7 +22594,7 @@
      inkscape:label="Geomorph-Full"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:none">
+     style="display:inline">
     <path
        sodipodi:type="star"
        style="display:inline;fill:none;stroke:#e6e6e6;stroke-width:1.74799;stroke-dasharray:none"
