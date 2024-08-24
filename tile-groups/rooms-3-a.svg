@@ -9,8 +9,8 @@
    id="svg1"
    xml:space="preserve"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="fortress-gatehouse-a.svg"
-   inkscape:export-filename="print\fortress-gatehouse-a.pdf"
+   sodipodi:docname="rooms-3-a.svg"
+   inkscape:export-filename="print\rooms-3-a.pdf"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,13 +27,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0293026"
-     inkscape:cx="695.13086"
-     inkscape:cy="454.19102"
-     inkscape:window-width="2880"
-     inkscape:window-height="1586"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:zoom="0.72782685"
+     inkscape:cx="713.08169"
+     inkscape:cy="467.83105"
+     inkscape:window-width="1920"
+     inkscape:window-height="1094"
+     inkscape:window-x="957"
+     inkscape:window-y="1609"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" /><defs
      id="defs1" /><g
@@ -41,7 +41,7 @@
      inkscape:groupmode="layer"
      id="layer1"><g
        id="g8"
-       transform="matrix(0.26458332,0,0,0.26458332,91.141089,54.599995)"><g
+       transform="matrix(0.26458332,0,0,0.26458332,90.303089,54.599995)"><g
          id="layer4-40"
          inkscape:label="Hexes-Bottom"
          style="display:inline"
@@ -246,7 +246,7 @@
            transform="matrix(1.7298831,0,0,1.7298831,-69.49573,-115.36782)"
            inkscape:label="geo1" /></g></g><g
        id="g9"
-       transform="matrix(-0.26458332,0,0,-0.26458332,294.1369,105.39998)"><g
+       transform="matrix(-0.26458332,0,0,-0.26458332,293.2989,105.39998)"><g
          id="layer4-6"
          inkscape:label="Hexes-Bottom"
          style="display:inline"
@@ -1175,7 +1175,7 @@
            transform="matrix(1.7298831,0,0,1.7298831,-69.49573,-115.36782)"
            inkscape:label="geo1" /></g></g><g
        id="g119"
-       transform="matrix(0.26458332,0,0,-0.26458332,4.5380894,105.39998)"><g
+       transform="matrix(0.26458332,0,0,-0.26458332,3.7000894,105.39998)"><g
          id="g16"
          inkscape:label="Hexes-Bottom"
          style="display:inline"
@@ -2104,7 +2104,7 @@
            transform="matrix(1.7298831,0,0,1.7298831,-69.49573,-115.36782)"
            inkscape:label="geo1" /></g></g><g
        id="g120"
-       transform="matrix(0.26458332,0,0,0.26458332,4.5380894,104.6)"><g
+       transform="matrix(0.26458332,0,0,0.26458332,3.7000894,104.6)"><g
          id="layer4"
          inkscape:label="Hexes-Bottom"
          style="display:inline"
@@ -2886,7 +2886,7 @@
            transform="matrix(1.7298831,0,0,1.7298831,-69.49573,-115.36782)"
            inkscape:label="geo1" /></g></g><g
        id="g192"
-       transform="matrix(-0.26458332,0,0,0.26458332,294.1369,104.6)"><g
+       transform="matrix(-0.26458332,0,0,0.26458332,293.2989,104.6)"><g
          id="g127"
          inkscape:label="Hexes-Bottom"
          style="display:inline"
@@ -3668,7 +3668,7 @@
            transform="matrix(1.7298831,0,0,1.7298831,-69.49573,-115.36782)"
            inkscape:label="geo1" /></g></g><g
        id="g193"
-       transform="matrix(0.26458332,0,0,0.26458332,90.910134,154.59997)"><g
+       transform="matrix(0.26458332,0,0,0.26458332,90.072134,154.59997)"><g
          id="layer2-9"
          inkscape:label="Hexes-Top"
          style="display:inline"
@@ -4501,7 +4501,7 @@
            d="M 345.97206,18.897638 455.07784,207.87393 H 18.654755 L 127.76053,18.897638 Z"
            sodipodi:nodetypes="ccccc" /></g></g><g
        id="g296"
-       transform="matrix(-0.26458332,0,0,-0.26458332,207.76613,55.40013)"><g
+       transform="matrix(-0.26458332,0,0,-0.26458332,206.92813,55.40013)"><g
          id="g200"
          inkscape:label="Hexes-Top"
          style="display:inline"

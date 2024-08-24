@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="hex-master-1.svg"
+   sodipodi:docname="half-empty-O4.svg"
    inkscape:export-filename="export\half-horizontal.svg"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
@@ -32,11 +32,11 @@
      inkscape:cy="222.48074"
      inkscape:window-width="2677"
      inkscape:window-height="1443"
-     inkscape:window-x="-968"
-     inkscape:window-y="-1620"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      showguides="true"
-     inkscape:current-layer="g2">
+     inkscape:current-layer="layer2">
     <sodipodi:guide
        position="-16.27893,792.18889"
        orientation="0,1"
@@ -102,11 +102,10 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Hexes-Top"
-     sodipodi:insensitive="true"
      transform="translate(-16.27893,-17.385727)">
     <path
        sodipodi:type="star"
-       style="fill:none;stroke:#cccccc;stroke-width:0.866308;stroke-dasharray:none"
+       style="fill:none;stroke:#999999;stroke-width:0.866308;stroke-dasharray:none;stroke-opacity:1"
        id="path6-5"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -123,7 +122,7 @@
        inkscape:label="hex0302" />
     <path
        sodipodi:type="star"
-       style="fill:none;stroke:#cccccc;stroke-width:0.866308;stroke-dasharray:none"
+       style="fill:none;stroke:#999999;stroke-width:0.866308;stroke-dasharray:none;stroke-opacity:1"
        id="path6"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -145,7 +144,7 @@
        inkscape:tile-x0="100.70729"
        inkscape:tile-y0="18.897658" />
     <path
-       style="display:inline;fill:none;stroke:#cccccc;stroke-width:0.755932"
+       style="display:inline;fill:none;stroke:#999999;stroke-width:0.755932;stroke-opacity:1"
        d="M 100.73197,160.62992 H 46.178269"
        id="path6-5-2-6-8-3-6"
        inkscape:label="lineb0103"

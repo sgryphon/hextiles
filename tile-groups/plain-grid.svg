@@ -41,7 +41,7 @@
      inkscape:groupmode="layer"
      id="layer1"><g
        id="g8"
-       transform="matrix(0.26458332,0,0,0.26458332,91.141089,54.599995)"><g
+       transform="matrix(0.26458332,0,0,0.26458332,90.303089,54.599995)"><g
          id="layer4-40"
          inkscape:label="Hexes-Bottom"
          style="display:inline"
@@ -246,7 +246,7 @@
            transform="matrix(1.7298831,0,0,1.7298831,-69.49573,-115.36782)"
            inkscape:label="geo1" /></g></g><g
        id="g296"
-       transform="matrix(-0.26458332,0,0,-0.26458332,207.76613,55.40013)"><g
+       transform="matrix(-0.26458332,0,0,-0.26458332,206.92813,55.40013)"><g
          id="g200"
          inkscape:label="Hexes-Top"
          style="display:inline"
@@ -396,7 +396,7 @@
            d="M 345.97206,18.897638 455.07784,207.87393 H 18.654755 L 127.76053,18.897638 Z"
            sodipodi:nodetypes="ccccc" /></g></g><g
        id="g306"
-       transform="matrix(0.26458332,0,0,0.26458332,90.910132,154.59997)"><g
+       transform="matrix(0.26458332,0,0,0.26458332,90.072132,154.59997)"><g
          id="g304"
          inkscape:label="Hexes-Top"
          style="display:inline"
@@ -546,7 +546,7 @@
            d="M 345.97206,18.897638 455.07784,207.87393 H 18.654755 L 127.76053,18.897638 Z"
            sodipodi:nodetypes="ccccc" /></g></g><g
        id="g322"
-       transform="matrix(0.26458332,0,0,0.26458332,4.5380894,4.5999948)"><g
+       transform="matrix(0.26458332,0,0,0.26458332,3.7000894,4.5999948)"><g
          id="g313"
          inkscape:label="Hexes-Bottom"
          style="display:inline"
@@ -751,7 +751,7 @@
            transform="matrix(1.7298831,0,0,1.7298831,-69.49573,-115.36782)"
            inkscape:label="geo1" /></g></g><g
        id="g338"
-       transform="matrix(0.26458332,0,0,0.26458332,4.5380894,104.59999)"><g
+       transform="matrix(0.26458332,0,0,0.26458332,3.7000894,104.59999)"><g
          id="g329"
          inkscape:label="Hexes-Bottom"
          style="display:inline"
@@ -956,7 +956,7 @@
            transform="matrix(1.7298831,0,0,1.7298831,-69.49573,-115.36782)"
            inkscape:label="geo1" /></g></g><g
        id="g354"
-       transform="matrix(0.26458332,0,0,0.26458332,177.74309,4.5999948)"><g
+       transform="matrix(0.26458332,0,0,0.26458332,176.90509,4.5999948)"><g
          id="g345"
          inkscape:label="Hexes-Bottom"
          style="display:inline"
@@ -1161,7 +1161,7 @@
            transform="matrix(1.7298831,0,0,1.7298831,-69.49573,-115.36782)"
            inkscape:label="geo1" /></g></g><g
        id="g370"
-       transform="matrix(0.26458332,0,0,0.26458332,177.74309,104.59999)"><g
+       transform="matrix(0.26458332,0,0,0.26458332,176.90509,104.59999)"><g
          id="g361"
          inkscape:label="Hexes-Bottom"
          style="display:inline"
